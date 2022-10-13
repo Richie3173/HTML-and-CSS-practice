@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.coatImg{
+    margin-right: 10px;
+}
+
+article{
+    border: 5px solid black;
+    line-height: 1.4;
+    width: 850px;
+    margin: 50px auto;
+}
+
+article p{
+    margin-bottom: 10px;
+}
+
+article h3{
+    margin-top: 30px;
+}
+.coat-title{
+    text-align: center;
+    background-color: rgb(205, 205, 205);
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+   }
+
+   .coat-title::before{
+       content: "Sale";
+       background-color: red;
+       color: white;
+       font-weight: 20px;
+       text-transform: uppercase;
+       padding:5px 10px;
+       letter-spacing: 2px;
+       display: inline-block;
+       position: absolute;
+       top: -20px;
+       left: -30px;
+       border: 2px solid black;
+   }
+
+   .Price{
+    font-size: 22px;
+    color:black;
+ }
+
+.addToCart{
+    background-color: black;
+    color: white;
+    height:50px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 10px;
+    border: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.addToCart:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+/*colours*/
+
+.colours{
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+  
+}
+
+.black-colour{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.blue-colour{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    cursor: pointer;
+   }
+
+.red-colour{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    cursor: pointer;
+  }
+
+.yellow-colour{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    cursor: pointer;
+   }
+
+.green-colour{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    cursor: pointer;
+ }
+
+.brown-colour{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details{
+    margin-left: 10px;
+    flex: 1;
+}
+
+.upperBody{
+    display: flex;
+}
+
+.infomation{
+    display: flex;
+}
+
+.product-description-block{
+    flex:1;
+}
